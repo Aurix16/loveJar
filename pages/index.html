@@ -22,24 +22,21 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="collapse navbar-collapse float-right" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto">
-              <a href="#prev"><li class=" navItem nav-item nav-link py-3 mr-lg-2">Previous messages </li></a>
+              <!-- <a href="#prev"><li class=" navItem nav-item nav-link py-3 mr-lg-2">Previous messages </li></a>
               <a href="#timer"><li class=" navItem nav-item nav-link py-3 mr-lg-2">Countdown </li></a>
               <a href="#preload"><li class=" navItem nav-item nav-link py-3 mr-lg-2">Preload Messages </li></a>
               <a href="#sampleMessages"><li class=" navItem nav-item nav-link py-3 mr-lg-2">Sample Messages </li></a>
-              <a href="#quotes"><li class=" navItem nav-item nav-link py-3 mr-lg-3">Quotes </li></a>
+              <a href="#quotes"><li class=" navItem nav-item nav-link py-3 mr-lg-3">Quotes </li></a> -->
+              <button type="button" class="btn btn-custom mb-2 mr-2 py-lg-2 px-lg-4 float-right" >Get Started</button>
+              <button type="button" class="btn btn-custom mb-2 mr-2 py-lg-2 px-lg-4 float-right" >Quote Mania</button>
             </ul>
-
-                <button type="button" class="btn btn-custom mb-2 mr-2 py-lg-2 px-lg-4" >Sign Up</button>
-                <button type="button" class="btn btn-custom mb-2 mr-2 py-lg-2 px-lg-4" >Register</button>
-            
-            
         </div>
     </nav>
 
-  <!--Full Page Slider--> 
-    <section id="home">
+    <!-- Full Page Slider-->
+    <section id="home" class="section">
       <header>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -49,21 +46,23 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <!-- Slide One - Set the background image for this slide in the line below -->
-              <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+              <div class="carousel-item active" style="background-image: url('../images/LoveJar-Slider_blue.png')">
                 <div class="carousel-caption d-none d-md-block">
                   <h2 class="display-4">First Slide</h2>
                   <p class="lead">This is a description for the first slide.</p>
                 </div>
               </div>
+
               <!-- Slide Two - Set the background image for this slide in the line below -->
-              <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+              <div class="carousel-item" style="background-image: url('../images/LoveJar-Slider_orange.png')">
                 <div class="carousel-caption d-none d-md-block">
                   <h2 class="display-4">Second Slide</h2>
                   <p class="lead">This is a description for the second slide.</p>
                 </div>
               </div>
+              
               <!-- Slide Three - Set the background image for this slide in the line below -->
-              <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+              <div class="carousel-item" style="background-image: url('../images/LoveJar-Slider_lBlue.png')">
                 <div class="carousel-caption d-none d-md-block">
                   <h2 class="display-4">Third Slide</h2>
                   <p class="lead">This is a description for the third slide.</p>
@@ -81,312 +80,7 @@
           </div>
       </header>
     </section>
-  
-  <!--About Us--> 
-    <section id="about" class="pt-3 px-lg-4">
-      <p class="text-center">
-        <h1 class="mx-5 mt-5 pl-2">Jar</h1> 
-      </p>
-      <div class="card-deck mx-5 mb-5">
-        <div class="card">
-          <img class="card-img-top" src="https://source.unsplash.com/random/1920x1080" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Countdown</h4>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,  At vero eos et accusam et justo duo dolores et ea rebum.  Lorem ipsum dolor sit amet,  no sea takimata sanctus est Lorem ipsum dolor sit amet.  Stet clita kasd gubergren,  no sea takimata sanctus est Lorem ipsum dolor sit amet.  no sea takimata sanctus est Lorem ipsum dolor sit amet.  no sea takimata sanctus est Lorem ipsum dolor sit amet.  sed diam voluptua.  
-            </p>
-            <a href="#!" class="btn btn-custom" data-toggle="modal" data-target="#whoWeAre" >Read More</a>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="https://source.unsplash.com/random/1920x1080" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">What We Do</h4>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet,At vero eos et accusam et justo duo dolores et ea rebum.  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,  At vero eos et accusam et justo duo dolores et ea rebum.  sed diam voluptua.  At vero eos et accusam et justo duo dolores et ea rebum.  Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet,  Stet clita kasd gubergren,  no sea takimata sanctus est Lorem ipsum dolor sit amet.
-            </p>
-            <a href="#!" class="btn btn-custom" data-toggle="modal" data-target="#whatWeDo">Read More</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--Modal for Who we are-->
-      <section>
-        <div class="modal fade" id="whoWeAre" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModal3Label">Who We Are</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                ...
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-    <!--Modal for What we do-->
-      <section>
-        <div class="modal fade" id="whatWeDo" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModal3Label">What We Do</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                ...
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-  <!-- Testimonials-->   
-    <section id="testimonials" class="pt-5 px-lg-4" data-ride="carousel" id="postsCarousel">
-      <p class="text-center">
-        <h1 class="mx-5 pl-2">Testimonials</h1> 
-      </p>
-      <!-- <div class="pl-5">
-          <div class=" row-equal">
-              <div class="col-xs-12 text-md-right lead">
-                  <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
-                  <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
-              </div>
-          </div>
-      </div> -->
-      <div class="carousel-inner_custom carousel slide mx-5 pl-2">
-          <div class=" row-equal carousel-item active">
-              <div class="col-md-4">
-                  <div class="card">
-                      <div class="card-img-top card-img-top-250">
-                          <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 1">
-                      </div>
-                      <div class="card-body">
-                          <h6 class="small text-wide">John Doe</h6>
-                          <h2>
-                              <a href>Okay, I totally love this platform and i recommend 100%!</a>
-                          </h2>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="card">
-                      <div class="card-img-top card-img-top-250">
-                          <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 2">
-                      </div>
-                      <div class="card-body">
-                          <h6 class="small text-wide">Janet Smith</h6>
-                          <h2>
-                              <a href>They shop better than I do, I've been using them for 5 months now and its been wonderful.</a>
-                            </h2>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="card">
-                      <div class="card-img-top card-img-top-250">
-                          <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 3">
-                      </div>
-                      <div class="card-body ">
-                          <h6 class="small text-wide">Smith John</h6>
-                          <h2>
-                              <a href>If you haven't signed up yet you totally should, this platform is amazing. I wish I could call them to get me the remote control too!.</a>
-                          </h2>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class=" row-equal carousel-item">
-              <div class="col-md-4">
-                  <div class="card">
-                      <div class="card-img-top card-img-top-250">
-                          <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 4">
-                      </div>
-                      <div class="card-body">
-                          <h6 class="small text-wide ">Jane Doe</h6>
-                          <h2>
-                              <a href>Still not convinced? Give them a trial</a>
-                          </h2>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="card">
-                      <div class="card-img-top card-img-top-250">
-                          <img class="img-fluid" src="//visualhunt.com/photos/l/1/working-woman-technology-computer.jpg" alt="Carousel 5">
-                      </div>
-                      <div class="card-body">
-                          <h6 class="small text-wide"><span class="pull-xs-right">12.04</span> Lisa Grey</h6>
-                          <h2>
-                              <a href>I totally love sendme.com, they are super reliable and great to work with.</a>
-                          </h2>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="card">
-                      <div class="card-img-top card-img-top-250">
-                          <img class="img-fluid" src="//visualhunt.com/photos/l/1/people-office-team-collaboration.jpg" alt="Carousel 6">
-                      </div>
-                      <div class="card-body">
-                          <h6 class="small text-wide">Snow Belle</h6>
-                          <h2>
-                              <a href>The quality of produce I get from them is always way better than when I go shopping myself!.</a>
-                          </h2>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-
-  <!--Easy Steps-->
-    <section id="easySteps" class="pt-3 px-lg-4">
-      <p class="text-center">
-        <h1 class="mx-5 mt-5 pl-2">Easy Steps</h1> 
-      </p>
-      <!--Card Area-->
-      <div class="card-deck mx-5 mb-5">
-        <div class="card gallery-item">
-          <div class="image-container">
-            <img src="https://source.unsplash.com/j5kEQ1JLqZk/1920x1080" alt="Card image cap" />
-          </div>
-          <div class="overlay">
-            Sign Up or Sign In
-          </div>
-        </div>
-
-        <div class="card gallery-item">
-          <div class="image-container">
-            <img src="https://source.unsplash.com/guiQYiRxkZY/1920x1080" alt="Card image cap" />
-          </div>
-          <div class="overlay">
-            Post your errand
-          </div>
-        </div>
-
-        <div class="card gallery-item">
-          <div class="image-container">
-            <img src="https://source.unsplash.com/mdADGzyXCVE/1920x1080" alt="Card image cap" />
-          </div>
-          <div class="overlay">
-            <span>Wait to be contacted with a quote. Typically 2-5 mins. 
-              One of our agents would call to make sure all is good.</span>
-          </div>
-        </div>
-        
-        
-      </div>
-
-      <div class="card-deck mx-5 mb-5">
-        <div class="card gallery-item">
-          <div class="image-container">
-            <img src="https://source.unsplash.com/Q59HmzK38eQ/1920x1080" alt="Card image cap" />
-          </div>
-          <div class="overlay">
-            Make Payment
-          </div>
-        </div>
-
-        <div class="card gallery-item">
-          <div class="image-container">
-            <img src="https://source.unsplash.com/b2qszO9C7sw/1920x1080" alt="Card image cap" />
-          </div>
-          <div class="overlay">
-            Sit back and let us do all the running around.
-          </div>
-        </div>
-
-        <div class="card gallery-item">
-          <div class="image-container">
-            <img src="https://source.unsplash.com/g4I_Lq-p4o0/1920x1080" alt="Card image cap" />
-          </div>
-          <div class="overlay">
-            <span>Contact your personal shopper anytime <br/> all through the process.
-              Leave a recommendation and repeat *wink*</span>
-          </div>
-        </div>
-      </div>     
-    </section>
-
-  <!--Get Started-->
-  <section id="getStarted" class="pt-3 px-lg-4">
-    <p class="text-center">
-      <h1 class="mx-5 mt-5 pl-2">Get Started</h1> 
-    </p>
-    <div class="alert alert-primary mx-5 mt-5 pl-2" role="alert">
-      <strong>Well done!</strong> You successfully read this ssomewhat important alert message. Psych got you!
-    </div>
-  </section>
-
-  <!--Contact Us-->
-  <section class="mb-5 pt-5 px-lg-4" id="contact">   
-    <div class="container-fluid  mt-3">
-      <div class="row">
-        <div class="col-md-8">
-          <p class="text-center">
-            <h1 class="mx-4 mt-2 pl-2">Get in Touch</h1> 
-            <div class="mx-4 mt-1 pl-2">
-              <strong >
-                We'll Love to hear from you, we promise to reply ASAP 
-                <i class="far fa-grin-beam fa-x"></i>
-              </strong>
-            </div> 
-          </p>
-
-          <form class="mx-4 mt-2 pl-2">
-            <div class="form-group row mt-4">
-              <div class="col-sm-10">
-                <input type="text" class="form-control inputCustom" id="inputName" placeholder="Name">
-              </div>
-            </div>
-            <div class="form-group row mt-4">
-              <div class="col-sm-10">
-                <input type="email" class="form-control inputCustom" id="inputEmail" placeholder="Your Email Address">
-              </div>
-            </div>
-            <div class="form-group row mt-4">
-              <div class="col-sm-10">
-                <textarea class="form-control inputCustom" rows="7" style="height: 100%;" id="inputMessage" placeholder="Message"></textarea>
-              </div>
-            </div>
-            <div class="form-group row mt-4">
-              <div class="col-sm-10">
-                <button type="submit" class="btn btn-custom btn-block inputCustom">I've heard</button>
-              </div>
-            </div>
-          </form>
-        </div>
-        
-        <div class="col-md-3 mx-4 pl-4">
-          <p class="">
-            <h3 class="mb-3">Connect with us</h3>
-            <span >For support or questions Email us at <a style="color: #118822;" href="#">support@sendme.com</a></span>
-
-            <h4 class="mt-5">Abuja</h4>
-            <span>350 Obasanjo Villa, Suite 77 <br/> Asokoro Estate, Abuja <br/> Nigeria</span>
-
-            <h4 class="mt-5">Canada</h4>
-            <span>574, Silverside Crescent, Suite 77 <br/> Lake Ontario, British Columbia <br/> Canada</span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
   <!--Footer Area-->
     <div class="d-flex text-white">
@@ -396,7 +90,7 @@
                 <i class="fab fa-facebook-f fa-2x mr-3 footer-icon"></i>
                 <i class="fab fa-twitter fa-2x mr-3 footer-icon"></i>
             </div>
-            <span>© 2020 SendMe.com | All Rights Reserved </span>
+            <span>© 2021 LoveJar.com | All Rights Reserved </span>
         </footer>
     </div>
     

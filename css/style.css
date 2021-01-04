@@ -14,20 +14,20 @@ a:hover{
 }
 
 .navItem:hover{
-  color: #229933 !important;
+  color: #E6000D !important;
 }
 
 .footer-icon:hover{
-    color: #229933;
+    color: #E6000D;
 }
 
 .btn-custom{
-    background-color: #03a01f !important;
+    background-color: #A80009 !important;
     color:#ffffff !important;
 }
 
 .btn-custom:hover{
-    background-color: #118822 !important;
+    background-color: #881111 !important;
 }
 
 .inputCustom{
